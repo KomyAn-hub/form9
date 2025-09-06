@@ -1,0 +1,289 @@
+body {
+    font-family: "Monsterrat";
+    background: #412a0f;
+    margin: 0;
+    bottom: 0;
+}
+
+.beaut-heder {
+    background-size: cover;
+    background-position: center;
+    color: azure;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    height: 400px;
+}
+
+
+.head-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+.top-bar {
+    display: flex;
+    padding: 20px 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    top: -100px;
+}
+
+
+.navbar {
+    align-items: center;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #402614;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: 0.3s;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.navbar a:hover {
+    background: #9a917b;
+    color: #3c392f;
+}
+
+.color {
+    color: black;
+}
+
+.head-cont {
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #000000;
+    padding-top: 120px;
+}
+
+.head-cont h1 {
+    font-size: 98px;
+    margin-bottom: 10px;
+    font-family: 'Playfair', serif;
+    margin-bottom: -15px;
+}
+
+
+
+.head-cont p {
+    font-size: 20px;
+    font-family: 'Monsterrat', serif;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Monsterrat', serif;
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Monsterrat', serif;
+}
+
+.about {
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    background-color: #b797824b;
+}
+
+.colorb {
+    background-color: #402614;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+
+}
+
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    background-color: #9a917b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #3f2e0e;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #130b01;
+}
+
+#form-er:target {
+  display: block;
+}
+
+#form-cal:target {
+  display: block;
+}
+
+#form-ser:target {
+  display: block;
+}
+
+
+.close-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: #774c38;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.close-btn:hover {
+  background: #3a1b10;
+}
+
+.form-container {
+  display: none;
+  background: #c49770;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 400px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #552913;
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 40, 24, 0.5);
+}
+
+p {
+  margin: 15px 0 5px;
+  font-weight: bold;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #45200c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #357ab8;
+}

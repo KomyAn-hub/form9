@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/cat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="beaut-heder">
+        <img src="images/bdf82044e49492984450d56ca21430ed.jpg" alt="Estetik" class="head-bg">
+        <div class="nav">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Головна</a>
+                    </li>
+                    <li><a href="menu.html">Меню</a>
+                    </li>
+                    <li><a href="cat.html" style="pointer-events: none; 
+                color: rgb(7, 0, 0);text-decoration: none;">Замовлення</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="head-cont">
+            <h1>CatCoffe</h1>
+            <p>Твій затишок у чашці</p>
+            <h2>Інтернет замовлення</h2>
+        </div>
+    </header>
+
+    <main>
+        <h2>Тут ви можете ознайомитись з нашим товаром для замовлень</h2>
+        <p>До вашої уваги!!! Ці товари є тільки на сайті</p>
+
+        <div class="container">
+            <figure>
+                <img src="images/62fd315a7e8753121c273b0ac3cfee4a.jpg" alt="Vino">
+                <figcaption>
+                    <p>Вино</p>
+                    <a href="#form-er" class="btn">Замовити</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/cf842b0af77bc773a0969a23c9c40f08.jpg" alt="Calian">
+                <figcaption>
+                    <p>Кальян</p>
+                    <a href="#form-cal" class="btn">Замовити</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/68d43cabb588305dd869bff6c81fef8c.jpg" alt="Котячі товари">
+                <figcaption>
+                    <p>Сертифікати</p>
+                    <a href="#form-ser" class="btn">Замовити</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div id="form-er" class="form-container">
+            <h2>Форма замовлення</h2>
+            <form>
+
+                <label for="name">Ім’я:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Вкажіть адресу доставки:</label>
+                <input type="text" id="address" name="address" placeholder="Вкажіть адресу" required>
+
+
+                <label for="product">Оберіть параметри: </label>
+                <select id="product" name="product" required>
+                    <option value=""> Виберіть:</option>
+                    <option value="red">Червоне</option>
+                    <option value="white">Біле</option>
+                    <option value="pink">Рожеве</option>
+                    <option value="pink">Десертне</option>
+                </select>
+                <p>Додатково:</p>
+                <label><input type="checkbox" name="extra" value="delivery"> Доставка</label>
+                <label><input type="checkbox" name="extra" value="gift"> Подарункова упаковка</label>
+                <p>Спосіб оплати:</p>
+                <label><input type="radio" name="payment" value="card" required> Карткою</label>
+                <label><input type="radio" name="payment" value="cash"> Готівкою</label>
+
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+                <button type="submit">Надіслати😍</button>
+            </form>
+            <a href="#" class="close-btn">Закрити🥹</a>
+        </div>
+
+         <div id="form-cal" class="form-container">
+            <h2>Форма замовлення</h2>
+            <form>
+
+                <label for="name">Ім’я:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Вкажіть адресу доставки:</label>
+                <input type="text" id="address" name="address" placeholder="Вкажіть адресу" required>
+
+
+                <label for="product">Оберіть параметри: </label>
+                <select id="product" name="product" required>
+                    <option value=""> Виберіть:</option>
+                    <option value="classik">Класичний</option>
+                    <option value="fruit">Фпуктовий</option>
+                    <option value="nonikotin">Без нікотину</option>
+                    <option value="premium">Преміум-мікс</option>
+                </select>
+                <p>Додатково:</p>
+                <label><input type="checkbox" name="extra" value="delivery">В нас</label>
+                <label><input type="checkbox" name="extra" value="gift">Оренда</label>
+                <p>Спосіб оплати:</p>
+                <label><input type="radio" name="payment" value="card" required> Карткою</label>
+                <label><input type="radio" name="payment" value="cash"> Готівкою</label>
+
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+                <button type="submit">Надіслати😍</button>
+            </form>
+            <a href="#" class="close-btn">Закрити🥹</a>
+        </div>
+
+        <div id="form-ser" class="form-container">
+            <h2>Форма замовлення</h2>
+            <form>
+
+                <label for="name">Ім’я:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Вкажіть адресу доставки:</label>
+                <input type="text" id="address" name="address" placeholder="Вкажіть адресу" required>
+
+
+                <label for="product">Оберіть параметри: </label>
+                <select id="product" name="product" required>
+                    <option value=""> Виберіть:</option>
+                    <option value="classik">Сертифікат на дегустацію вин</option>
+                    <option value="fruit">Сертифікат на кальян</option>
+                    <option value="nonikotin">Сертефікат на фотосесію з котками</option>
+                    <option value="premium">✨Набір "Вино і сир"✨</option>
+                </select>
+                <p>Додатково:</p>
+                <label><input type="checkbox" name="extra" value="delivery">З подарунковим боксом</label>
+                <label><input type="checkbox" name="extra" value="gift">Без</label>
+                <p>Спосіб оплати:</p>
+                <label><input type="radio" name="payment" value="card" required> Карткою</label>
+                <label><input type="radio" name="payment" value="cash"> Готівкою</label>
+
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+                <button type="submit">Надіслати😍</button>
+            </form>
+            <a href="#" class="close-btn">Закрити🥹</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="margin-top: 0; margin-bottom: 0;"><b>Автор:</b><i>Аня</i></p>
+        <p style="margin-top: 0; margin-bottom: 0;"><b>Рік:</b> 2025</p>
+    </footer>
+
+</body>
+
+</html>
